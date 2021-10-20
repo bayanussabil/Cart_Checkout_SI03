@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style> *{padding: 0; margin: 0;}</style>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  <title>Cart</title>
+</head>
+<body style="max-width: 1000px; border: 1px solid black; margin: auto; background-color: blanchedalmond;">
+  <header style="background-color: gainsboro; border-bottom: 1px solid black;">
+    <nav style="display: flex; padding: 10px; border-bottom: 1px solid black;"> 
+      <ul style=" display: flex; list-style-type: none; gap: 10px; margin-right: 20px ;">
+        <li>
+          <a style="text-decoration: none;" href="">bayanussabil.com</a>
+        </li>
+      </ul>
+
+      <ul style=" display: flex; list-style-type: none; gap: 10px;"> 
+        <li> 
+          <a style="text-decoration: none;" href="/">Home</a> |
+        </li> 
+        <li> 
+          <a style="text-decoration: none;" href="/events">Current Events</a> |
+        </li> 
+        <li> 
+          <a style="text-decoration: none;" href="/contact">Contact us</a>
+        </li> 
+      </ul> 
+
+      <ul style=" display: flex; list-style-type: none; gap: 10px; margin-left: auto;">
+        <li>
+          <i class="bi bi-search"></i>
+        </li>
+        <li style="display: flex; gap: 5px;">
+          <i class="bi bi-cart-fill"></i>
+          <p>Cart(1)</p>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <div style="display: flex; gap: 20px; margin-top: 100px; padding: 10px;">
+    <main style="width: 60%;">
+      <h1>Your Cart</h1>
+        <table style="width: 100%; border-collapse: collapse;">
+          <thead style="border-top: 1px solid black; border-bottom: 1px solid black;">
+            <tr>
+              <td class="col-head">Item</td>
+              <td class="col-head">Price</td>
+              <td class="col-head">Quantity</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td style="display: flex; align-items: center;">
+                <img width="200" src="https://cf.shopee.co.id/file/37b57393cc19cadb5bf31514b513f7c4" alt="">
+                <p>Tshirt <br> Size Small</p>
+              </td>
+              <td>
+                <b>Rp.100.000</b>
+              </td>
+              <td>
+                <select name="" id="">
+                  <option value="">1</option>
+                  <option value="">2</option>
+                </select>
+              </td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td style="border-top: 1px solid black; border-bottom: 1px solid black;" colspan="3" align="right">Subtotal: <b>Rp.100.000</b></td>
+            </tr>
+          </tfoot>
+        </table>
+    </main>
+
+      <aside style="width: 30%; background-color: #A9A9A9; padding: 10px; display: table; align-items: center;"
+        <table style="width: 100%;">
+          <td style="background-color:#A9A9A9; padding: 20px; border-radius: 3px;" id="summary">
+              <font style="padding: 10px 0;">Summary (1 item)</font><br><br>
+              <font style="padding: 10px 0;">Subtotal</font>
+              <font style="padding: 10px 0; margin-left: 175px;">Rp.100.000</font><br><br>
+              <font style="padding: 10px 0;">Shipping</font>
+              <font style="padding: 10px 0; margin-left: 235px;">-</font><br><br>
+              <font style="padding: 10px 0;">Est. Taxes</font>
+              <font style="padding: 10px 0; margin-left: 227px;">-</font><br>
+              <br><hr align ="left" color="white" width="300"><br>
+              <font style="padding: 10px 0;">Total</font>
+              <font style="padding: 10px 0; margin-left: 195px;">Rp.100.000</font>
+              <hr align ="left" color="#A9A9A9" width="300"><br>
+          </td>
+          <a style="display: flex; justify-content: center; background-color: turquoise; width: 100%; text-decoration: none; padding: 10px 0;" href="checkout.html">Checkout</a>
+        </table>
+      </aside>
+    </div>
+
+  <footer style="margin-top: 100px; border-top: 1px solid black; padding: 10px; display: grid; gap: 10px;">
+    <div style="display: flex; gap: 5px;">
+      <a style="text-decoration: none; margin-right: 20px;"  href="">bayanussabil.com</a>
+      <a style="text-decoration: none; margin-right: 5px;"  href="">Category 1</a> |
+      <a style="text-decoration: none; margin-right: 5px;"  href="">Category 2</a> |
+      <a style="text-decoration: none; margin-right: 5px;"  href="">Category 3</a> 
+      <a style="text-decoration: none; margin-left: auto;"  href="">Stay In Touch</a>
+    </div>
+    <div style="gap: 5px;">
+      <i class="bi bi-badge-cc-fill"></i>
+      <i class="bi bi-badge-cc-fill"></i>
+      <i class="bi bi-badge-cc-fill"></i>
+      <div style="display: flex;">
+        <input style="margin-left: auto; font-weight: bolder;" type="text" placeholder="Enter Email">
+        <p style="background-color: green; font-weight: bolder;">Subscribe</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
